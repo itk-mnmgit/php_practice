@@ -1,3 +1,19 @@
+<table border="1">
+  <tr>
+    <?php
+    $y = 2019;
+    $m = 10;
+    $d = 1;
+    while($d <=31){
+        echo "<td>$d<td>";
+        $d++;
+    }
+
+    ?>
+  </tr>
+</table>
+<!-- echo "${y}年${m}月のカレンダー"; -->
+
 <?php
 
 //練習問題
